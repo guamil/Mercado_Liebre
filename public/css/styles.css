@@ -1,0 +1,197 @@
+/* Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.amarillo {
+    color:#EAC926;
+}
+.azul{
+    color:#03264C;
+}
+.celeste{
+    color:#1259c3;
+}
+.gris_oscuro{
+    color:#666;
+}
+.gris_claro{
+    color:#ebebeb;
+}
+.verde{
+    color:#39b54a;
+}
+.bg-amarillo {
+    background-color:#EAC926;
+}
+.bg-azul{
+    background-color:#03264C;
+}
+.bg-celeste{
+    background-color:#1259c3;
+}
+.bg-gris_oscuro{
+    background-color:#666;
+}
+.bg-gris_claro{
+    background-color:#ebebeb;
+}
+.bg-verde{
+    background-color:#39b54a;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+main{
+    width:90%;
+    margin: auto;
+}
+article{
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.main-nav-bar a {
+    text-decoration: none;
+    color:#03264C;
+    display: inline-block;
+    padding: 3px 0px;
+    margin-right: 4px;
+    font-size: 17px;
+}
+.main-nav-bar ul{
+    list-style-type: none;
+}
+
+.caja_datos_prod{
+    border-top: 1px #ebebeb solid;
+    padding: 15px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+}
+footer{
+    color:#666;
+    text-align: center;
+    background-color: white;
+}
+footer h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+footer p{
+    margin-top:0px;
+    margin-bottom:20px;
+}
+footer div{
+    height: 50px;
+}
+.contenedor_full_width{
+    width: 100%;
+}
+.borde_redondo{
+    border: 1px green solid;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+.icono_truck{
+    color:green;
+    margin: 5px;
+    font-size: 16px;
+}
+.precios{
+    font-size:18px;
+}
+.descuentos{
+    font-size:16px;
+}
+.descripciones{
+    font-size:16px;
+}
+
+.burger{
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    background-color: #03264C;
+    color: #ffffff  ;
+    border-radius: 8px;
+    max-width: 60px;
+    padding: 15px 0px;
+    margin: auto;
+
+}
+/*.burger{
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    background-color: #1259c3;
+    color: #ebebeb  ;
+    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}*/
+
+.centrar{
+    text-align: center;
+    width: 100%
+}
+.iconos-footer{
+    font-size: 2em;
+    line-height: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1259c3;
+    border-radius: 7px;
+    width: 60px;
+    height: 60px;
+}
+.copyright{
+    margin-top: 2em;
+}
+.oculto-enmobile{
+    display: none;
+}
+
+@media (min-width: 361px) {
+    .oculto-enmobile{
+        display: block;
+    }
+    .burger{
+        display:none;
+    }
+    article{
+        box-shadow: 0px 0px 10px RGB(100,100,100);
+    }
+}
+@media (min-width: 769px) {
+
+}
