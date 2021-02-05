@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ce3f86914.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt ="logo de Mercado Liebre">
+            
+            <form action="/" method="POST"class="barra-busqueda">
+
+                <input type="text" placeholder="Search.." class="input-busqueda"><i class="fas fa-search busqueda"></i>
+            
+            </form>
+            <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjetas de crédito</h2>
+        </div>
+        <nav class="main-nav-bar oculto-enmobile">
+                <ul class="left-nav-bar">
+                    <li><a href=# >Ofertas</a></li>
+                    <li><a href=# >Tiendas oficiales</a></li>
+                    <li><a href=# >Vender</a></li>
+                    <li><a href=# >Ayuda</a></li>
+                </ul>
+                <ul class="right-nav-bar">
+                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/login" >Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href=# >Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+        </nav> 
+        <div><i class="fas fa-bars burger"></i>
+            <!--  Como hacer que el alto se mantenga relativamente al alto cuando vario la vista -->
+            </div>
+    </header>
+    <form action="/" method="POST" class="create-form">
+        <div class="control-formulario">
+            <label>Nombre de usuario:</label>
+            <input type="text" name="usuario" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Contraseña:</label>
+            <input type="password" name="password" class="control">
+        </div>
+    
+        <button type="reset" class="boton-formulario">Borrar</button>
+        <button type="submit" class="boton-formulario boton-enviar">Enviar</button>
+    </form>
+</body>
+</html>
