@@ -13,7 +13,7 @@
 <body>
     <header class="main-header">
         <div class="main-header-top-bar">
-            <img class="logo" src="/images/logo-mercado-liebre.svg" alt ="logo de Mercado Liebre">
+            <a href="/" class="logo"><img src="/images/logo-mercado-liebre.svg" alt ="logo de Mercado Liebre"></a>
             
             <form action="/" method="POST"class="barra-busqueda">
 
@@ -41,20 +41,19 @@
     </header>
     <form action="/" method="POST" class="create-form">
         <div class="control-formulario">
-            <label>Nombre y apellido:</label>
-            <input type="text" name="nombre-apellido" class="control">
+         
+            <input type="text" name="nombre-apellido" class="control" placeholder="Nombre y Apellido">
         </div>
         <div class="control-formulario">
-            <label>Nombre de usuari@:</label>
-            <input type="text" name="nombre-usuario" class="control">
+    
+            <input type="text" name="nombre-usuario" class="control" placeholder="Nombre de usuari@:">
         </div>
         <div class="control-formulario">
             <label>Fecha de Nacimiento:</label>
             <input type="date" name="fecha-nacimiento" class="control">
         </div>
         <div class="control-formulario">
-            <label>Domicilio:</label>
-            <input type="text" name="domicilio" class="control">
+            <input type="text" name="domicilio" class="control" placeholder="Domicilio">
         </div>
         <div class="control-formulario">
             <label>Perfil de usuario:</label>
@@ -76,12 +75,10 @@
           
         </div>
         <div class="control-formulario">
-            <label>Contraseña:</label>
-            <input type="password" name="password" class="control">
+            <input type="password" name="password" class="control" placeholder="Contraseña">
         </div>
         <div class="control-formulario">
-            <label>Confirmar contraseña:</label>
-            <input type="password" name="confirmar-password" class="control">
+            <input type="password" name="confirmar-password" class="control" placeholder="Confirmar Contraseña">
         </div>
     
         <button type="reset" class="boton-formulario">Borrar</button>

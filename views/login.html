@@ -13,7 +13,7 @@
 <body>
     <header class="main-header">
         <div class="main-header-top-bar">
-            <img class="logo" src="/images/logo-mercado-liebre.svg" alt ="logo de Mercado Liebre">
+            <a href="/" class="logo"><img src="/images/logo-mercado-liebre.svg" alt ="logo de Mercado Liebre"></a>
             
             <form action="/" method="POST"class="barra-busqueda">
 
@@ -41,16 +41,16 @@
     </header>
     <form action="/" method="POST" class="create-form">
         <div class="control-formulario">
-            <label>Nombre de usuario:</label>
-            <input type="text" name="usuario" class="control">
+            
+            <input type="text" name="usuario" class="control" placeholder="Nombre de usuario">
         </div>
         <div class="control-formulario">
-            <label>Contraseña:</label>
-            <input type="password" name="password" class="control">
-        </div>
     
-        <button type="reset" class="boton-formulario">Borrar</button>
-        <button type="submit" class="boton-formulario boton-enviar">Enviar</button>
+            <input type="password" name="password" class="control" placeholder="Contraseña">
+        </div>
+        <div class="control-formulario">
+        <button type="submit" class="boton-formulario boton-enviar-login">Enviar</button>
+        </div>
     </form>
 </body>
 </html>
