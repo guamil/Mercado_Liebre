@@ -87,7 +87,10 @@ article{
     list-style-type: none;
 }
 h2{
-    font-size: 24px;
+    font-size: 24px;   
+}
+main h2{
+    margin: 10px 0px 15px 0px;
 }
 h3{
     font-size: 18px;
@@ -152,12 +155,12 @@ main section article h4{
 }
 .precios{
     font-size:18px;
-    flex-wrap: 0.3;
+    width: 30%;
 }
 .descuentos{
     font-size:16px;
     color: #39b54a;
-    flex-wrap: 0.7;
+    width: 70%;
 }
 .descripciones{
     font-size:16px;
@@ -239,8 +242,13 @@ main section article h4{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .precios{
+        width: 50%;
+    }
+    .descuentos{
+        width: 50%;
+    }
     article{
-        
         width: 48%;
     }
     article:hover{
